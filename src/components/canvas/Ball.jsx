@@ -55,6 +55,7 @@
 // };
 
 // export default BallCanvas;
+
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
@@ -119,7 +120,7 @@ const BallCanvas = ({ icon }) => {
             gl={{ preserveDrawingBuffer: true }}>
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls enableZoom={false} />
-                {!isMobile && <Ball imgUrl={icon} />}
+                {isMobile ? null : <Ball imgUrl={icon} />}
             </Suspense>
 
             <Preload all />
