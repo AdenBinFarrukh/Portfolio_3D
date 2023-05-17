@@ -20,6 +20,7 @@
 
 import React from "react";
 import { SectionWrapper } from "../hoc";
+import { BallCanvas } from "./canvas";
 import { technologies } from "../constants";
 
 const Tech = () => {
