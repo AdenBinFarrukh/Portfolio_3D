@@ -32,7 +32,9 @@ const Tech = () => {
                     {isMobile ? (
                         <img src={technology.icon} alt={technology.name} />
                     ) : (
-                        <canvas />
+                        <div className="w-28 h-28" key={technology.name}>
+                            <BallCanvas icon={technology.icon} />
+                        </div>
                     )}
                 </div>
             ))}
