@@ -19,13 +19,11 @@
 // export default SectionWrapper(Tech, "");
 
 import React from "react";
-import { useMediaQuery } from "react-responsive";
-
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const Tech = () => {
-    const isMobile = useMediaQuery({ maxWidth: 767 });
+    const isMobile = window.innerWidth <= 767;
 
     return (
         <div className="flex flex-row flex-wrap justify-center gap-10">
