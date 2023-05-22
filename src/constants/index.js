@@ -251,7 +251,7 @@ const projects = [
     {
         name: "Article Summerizer",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A powerful article summarizer built with React and Tailwind CSS, leveraging the efficiency of Rapid API endpoints for seamless content extraction and concise summaries.",
         tags: [
             {
                 name: "react",
