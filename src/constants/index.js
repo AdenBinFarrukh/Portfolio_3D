@@ -204,7 +204,7 @@ const testimonials = [
         name: "Sohaib Abbass",
         designation: "L1 SOC Analyst",
         company: "YOTTABYTE",
-        image: "https://media.licdn.com/dms/image/C5103AQGrrBsDxHSoEA/profile-displayphoto-shrink_800_800/0/1565086440434?e=1689811200&v=beta&t=6-P9XH1c9PicWtiwLpSMJOUxmw-7m9Ds-FcUUL4XtaI",
+        image: "https://media.licdn.com/dms/image/C5103AQGrrBsDxHSoEA/profile-displayphoto-shrink_800_800/0/1565086440434?e=1695859200&v=beta&t=9vfzfyPFdQ5Uh1njqNdDlx_8rcovpjj_yHT8xxL3ksw",
     },
     // {
     //     testimonial:
